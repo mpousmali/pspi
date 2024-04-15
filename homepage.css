@@ -11,4 +11,21 @@ frame1 {
     width: 1200;
     height: 400; /* Ορίζει το ύψος του header σε 150 pixels */
 }
+frame2 {
+    width: 1200;
+    height: 400; 
+}
+frame3 {
+    width: 1200;
+    height: 600; 
+}
+footer {
+    height: 100px; 
+}
+.centered {
+    text-align: center;
+}
+.po {
+    font-size: 50px;
+}
 /* END CODE HERE */
