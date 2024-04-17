@@ -1,7 +1,7 @@
 /* BEGIN CODE HERE */
-header {
+header{
     height: 150px; /* Ορίζει το ύψος του header σε 150 pixels */
-}
+    }
 frame4{ 
     width: 1200;
 }
@@ -9,7 +9,7 @@ frame5{
     width: 1200;
     height: 500px;
 }
-footer2{
+footer{
     height: 100px; 
 }
 .centered {
@@ -18,4 +18,12 @@ footer2{
 .po {
     font-size: 50px;
 }
+.border{
+  table, th,tr,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+} 
+}
+
+
 /* END CODE HERE */
