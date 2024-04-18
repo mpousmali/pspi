@@ -1,5 +1,6 @@
 /* BEGIN CODE HERE */
 
+
 header {
     height: 150px; /* Ορίζει το ύψος του header σε 150 pixels */
     border-bottom-style: ridge;
@@ -7,6 +8,13 @@ header {
 frame4{ 
     width: 1200px;
     height: 400px;
+
+header {
+    height: 150px; /* Ορίζει το ύψος του header σε 150 pixels */
+}
+frame4{ 
+    width: 1200;
+
 }
 frame5{ 
     width: 1200;
@@ -17,6 +25,9 @@ footer2{
     border-top-style: ridge;
 } 
 
+
+    height: 100px; 
+}
 .centered {
     text-align: center;
 }
@@ -104,3 +115,6 @@ footer2{
     }
   }
   
+
+
+/* END CODE HERE */
