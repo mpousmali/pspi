@@ -20,18 +20,69 @@
   </div>
   </h1>
 </header>
-<frame4><!-- ΠΡΟΧΕΙΡΟ FRAME-->
-  <table width="1200" height="400"  align="center" cellpadding="2" >
-    <!--<div class="topnav">-->
-      <div class="search-container">
-          Search a product
-          <input type="text" name="search">
-          <a href="homepage.html" class="btn btn-primary" class="rounded-end">Search</a>
-      </div>
-    
-    
-  </table>
-  </frame4>
+<div class="frame4"><!-- ΠΡΟΧΕΙΡΟ FRAME-->
+  <div class="row row-cols-2 align-items-center mb-4">
+    <label class="col-auto" for="inputSearch">Search a product</label>
+    <div class="col-auto">
+    <div class="input-group">
+    <input type="search" class="form-control" id="inputSearch">
+    <button type="submit" class="btn btn-primary" id="searchButton">Search</button>
+    </div>
+    </div>
+    </div>
+    <div> 
+      Results
+    </div>
+      <table class="border" width="1200"  align="center" >
+        <th>ID</th>
+        <th>Name</th>
+        <th>Production year</th>
+        <th>Price</th>
+        <th>Color</th>
+        <th>Size</th>
+       </tr>
+      </table>
+    </div>
+    <div class="frame5">
+      <div> 
+     Add a product :
+   </div>
+     <form>
+       <div class="row mb-3">
+         <label for="inputName" class="col-sm-1 col-form-label">Name :</label>
+         <div class="col-md-6">
+           <input type="name" class="form-control" id="inputName">
+         </div>
+       </div>
+       <div class="row mb-3">
+         <label for="inputProduction year" class="col-sm-1 col-form-label">Production year</label>
+         <div class="col-md-6">  
+           <input type="text" class="form-control" id="inputProduction year">
+         </div>
+       </div>
+       <div class="row mb-3">
+         <label for="inputPrice" class="col-sm-1 col-form-label">Price :</label>
+         <div class="col-md-6">
+           <input type="text" class="form-control" id="inputPrice">
+         </div>
+       </div>
+       <div class="row mb-3">
+         <label for="inputColor" class="col-sm-1 col-form-label">Color</label>
+         <div class="col-md-6">
+          <input type="text" class="form-control" id="inputColor">
+         </div>
+       </div>
+       <div class="row mb-3">
+         <label for="inputSize" class="col-sm-1 col-form-label">Size</label>
+         <div class="col-md-6">
+          <input type="text" class="form-control" id="inputSize">
+        </div>
+       </div>
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+       <button type="save" class="btn btn-primary">Save</button>
+       </div>
+     </form>
+   </div>
   <footer2>
      <strong>
        <div class="po"> 
