@@ -5,20 +5,21 @@ header {
 }
 
 frame1 {
-    width: 1200;
-    height: 400; /* Ορίζει το ύψος του header σε 150 pixels */
+    width: 1200px;
+    height: 400px; /* Ορίζει το ύψος του header σε 150 pixels */
+    text-align: start;
 }
 frame1 {
-    width: 1200;
-    height: 400; /* Ορίζει το ύψος του header σε 150 pixels */
+    width: 1200px;
+    height: 400px; /* Ορίζει το ύψος του header σε 150 pixels */
 }
 frame2 {
-    width: 1200;
-    height: 400; 
+    width: 1200px;
+    height: 400px; 
 }
 frame3 {
-    width: 1200;
-    height: 600; 
+    width: 1200px;
+    height: 600px; 
 }
 footer {
     height: 100px; 
@@ -28,8 +29,8 @@ footer {
 .start{
     text-align: start;
 }
-div.h1{
-   text-align: left;
+.h1{
+   vertical-align: top;
 
 }
 .centered {
@@ -37,5 +38,9 @@ div.h1{
 }
 .po {
     font-size: 50px;
+}
+frame4{
+    height: 400px;
+    width: 200px;
 }
 /* END CODE HERE */
